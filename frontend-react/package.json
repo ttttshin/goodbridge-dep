@@ -1,0 +1,77 @@
+{
+  "proxy": "http://localhost:3003",
+  "name": "frontend-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-tailwind/react": "^1.2.4",
+    "@react-icons/all-files": "^4.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^13.5.0",
+    "country-state-city": "^1.0.5",
+    "formik": "^2.4.5",
+    "framer-motion": "^7.6.7",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.3.0",
+    "prop-types": "^15.8.1",
+    "punycode": "^2.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^4.6.0",
+    "react-resizable": "^3.0.5",
+    "react-router": "^6.21.3",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.0",
+    "react-simple-typewriter": "^5.0.1",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "validator": "^13.9.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy --dir=build --prod ",
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "autoprefixer": "^10.4.13",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-jest": "^27.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^27.5.1",
+    "postcss": "^8.4.19",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "react-test-renderer": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component renders a button with given label 1`] = `
+<DocumentFragment>
+  <div
+    class="shadow-xl bg-offwhite2 rounded-lg p-3 top-10 hover:scale-105 text-center my-3"
+  >
+    <button>
+      Delete Account
+    </button>
+  </div>
+</DocumentFragment>
+`;
